@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python_template_project"
+name = "chouchou_analytics"
 version = "0.1.0"
 description = "Python template project"
 authors = ["Sfeir Bureau d'études <ft-bureaudetude@sfeir.com>"]

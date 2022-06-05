@@ -18,11 +18,11 @@ RUN --mount=type=cache,target=/home/root/.cache/pypoetry \
 FROM deps AS app
 
 # Copy sources
-COPY python_template_project python_template_project
+COPY chouchou_analytics chouchou_analytics
 COPY README.md ./
 
 # Overrider entrypoint to current virtual environment
 ENTRYPOINT [ "poetry", "run" ]
 
 # Run application
-CMD ["python", "-m", "python_template_project.app" ]
+CMD ["python", "-m", "chouchou_analytics.app" ]
